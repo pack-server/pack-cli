@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pack-server/pack-cli.git"
+    "url": "https://github.com/pack-server/pack-cli"
   },
   "keywords": [
     "pack",
@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/pack-server/pack-cli/issues"
   },
-  "homepage": "https://github.com/pack-server/pack-cli#readme"
+  "homepage": "https://github.com/pack-server/pack-cli#readme",
+  "dependencies": {
+    "shelljs": "^0.7.4",
+    "socket.io-client": "^1.4.8",
+    "tar.gz": "^1.0.5"
+  },
+  "bin": {
+    "wpack": "bin/index.js"
+  }
 }
